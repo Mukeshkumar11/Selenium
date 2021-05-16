@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="testNGframework">
+	<test thread-count="5" name="SwagLab_login_logout">
+		<classes>
+			<class name="testNGframework.SwagLab"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
